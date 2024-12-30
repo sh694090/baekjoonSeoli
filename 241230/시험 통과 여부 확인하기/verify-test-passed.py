@@ -6,4 +6,4 @@ if n >= 80:
     print('pass')
 # 정수 n < 80인 경우 "(80 - n) more score"의 결과 출력
 if n < 80:
-    print("(80 - n) more score")
+    print(f"{80 - n} more score")
