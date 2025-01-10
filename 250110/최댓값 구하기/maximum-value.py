@@ -5,10 +5,13 @@ a = int(a)
 b = int(b)
 c = int(c)
 
-# a, b 비교
-if a >= b and b >= c:
-    print(a)
-elif b >= a and a >= c:
-    print(b)
+if a >= b:
+    if a >= c:
+        print(a)
+    else:
+        print(c)
 else:
-    print(c)
+    if b >= c:
+        print(b)
+    else:
+        print(c)
