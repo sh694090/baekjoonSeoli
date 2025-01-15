@@ -8,6 +8,7 @@ b = int(inp[1])
 print(f"{a // b}.", end = "")
 
 # a / b의 나머지 * 10을 b로 나눈 몫을 20번 출력한다
+a %= b
 for _ in range(20):
     a *= 10
     print(a // b, end = "")
