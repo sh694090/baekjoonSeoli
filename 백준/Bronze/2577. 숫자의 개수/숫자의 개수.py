@@ -14,4 +14,3 @@ for number in str(result):
 
 for i in range(10):
     print(number_count[i])
-    i += 1
