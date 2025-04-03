@@ -20,6 +20,6 @@ result = 0
 if sum_even >= sum_odd:
     result = sum_even - sum_odd
 else:
-    result - sum_odd - sum_even
+    result = sum_odd - sum_even
 
 print(result)
