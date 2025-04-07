@@ -7,8 +7,8 @@ arr = list(map(int, s.readline().split()))
 
 for i in range(len(arr)):
     if arr[i] == 0:
-        continue
+        break
     elif arr[i] % 2 == 0:
         print(arr[i] // 2, end = " ")
-    else:
+    elif arr[i] % 2 != 0:
         print(arr[i] + 3, end = " ")
