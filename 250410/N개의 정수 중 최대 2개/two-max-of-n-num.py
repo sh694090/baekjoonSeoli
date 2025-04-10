@@ -17,7 +17,4 @@ second = max(arr)
 
 # second = max(new_arr)
 
-if first == second:
-    print(first)
-else:
-    print(first, second)
+print(first, second)
