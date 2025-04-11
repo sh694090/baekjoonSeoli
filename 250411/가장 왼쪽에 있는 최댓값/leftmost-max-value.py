@@ -14,8 +14,8 @@ arr = list(map(int, s.readline().split()))
 # 최댓값 판별
 max_index = N - 1
 while max_index > 0:
+    max_val = 0
     for cur_val in arr:
-        max_val = 0
         if max_val < cur_val:
             max_val = cur_val
     max_index = arr.index(max_val)
