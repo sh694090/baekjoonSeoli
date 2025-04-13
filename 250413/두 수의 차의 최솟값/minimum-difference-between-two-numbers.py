@@ -10,7 +10,7 @@ val_arr = []
 
 # 서로 다른 두 개의 정수를 골랐을 때 차이의 최솟값
 for i in range(N):
-    for j in range(1, i):
+    for j in range(N):
         val = arr[i] - arr[j]
         if val > 0:
             val_arr.append(val)
