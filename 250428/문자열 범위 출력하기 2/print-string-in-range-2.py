@@ -5,5 +5,9 @@ num = int(s.readline().strip())
 
 result = inp[::-1]
 
-for i in range(num):
-    print(result[i], end = "")
+if len(result) < num:
+    for elem in result:
+        print(elem, end = "")
+else:
+    for i in range(num):
+        print(result[i], end = "")
