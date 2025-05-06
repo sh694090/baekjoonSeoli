@@ -10,7 +10,7 @@ for _ in range(len(A)):
         break
     else:
         cnt += 1
-        A = A[1:] + A[:1]
+        A = A[-1:] + A[:-1]
 
-if cnt == 6:
+if cnt == len(A):
     print(-1)
